@@ -1,0 +1,40 @@
+{
+  "name": "angular2-hypermedia",
+  "version": "0.0.1",
+  "description": "Hypermedia support for Angular 2",
+  "homepage": "https://github.com/angular-utils/angular2-hypermedia",
+  "bugs": "https://github.com/angular-utils/angular2-hypermedia/issues",
+  "contributors": [
+    "Stéphane Bégaudeau <stephane.begaudeau@gmail.com>"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 5.4.1 < 6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-utils/angular2-hypermedia.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "hateoas",
+    "hypermedia"
+  ],
+  "main": "angular2-hypermedia.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "typings": "./angular2-hypermedia.d.ts",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.14"
+  },
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  }
+}
